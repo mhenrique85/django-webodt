@@ -4,7 +4,7 @@ from distutils.core import setup
 
 from imp import reload
 import os, sys
-reload(sys).setdefaultencoding("UTF-8")
+reload(sys)
 
 def read(fname):
     try:
