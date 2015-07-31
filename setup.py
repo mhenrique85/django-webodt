@@ -2,6 +2,7 @@
 # -*- coding: utf8 -*-
 from distutils.core import setup
 
+from imp import reload
 import os, sys
 reload(sys).setdefaultencoding("UTF-8")
 
